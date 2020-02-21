@@ -10,7 +10,6 @@ const IwashNavBar = () => {
     let firstname = localStorage.getItem('firstname');
     let lastname = localStorage.getItem('lastname');
     let avatar = localStorage.getItem('avatar');
-    let wallet = localStorage.getItem('wallet');
 
     return (
         <>
@@ -33,20 +32,12 @@ const IwashNavBar = () => {
                         </li>
                     : 
                         <li>
-                            <Link className={styles.wallet} to="/wallet">
-                                $ {wallet}
-                            </Link>
                             <div className="btn-group">
                                 <button className={["dropdown-toggle", styles.dropBtn].join(' ')} data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <img src={process.env.PUBLIC_URL + '/img/avatar/' + avatar} alt="avatar" width="30px" /> {firstname} {lastname}
                                 </button>
                                 <div className="dropdown-menu dropdown-menu-right">
                                     <Link className="dropdown-item" to="/" >Home</Link>
-                                    <Link className="dropdown-item" to="/wallet" >Add Money</Link>
-                                    <Link className="dropdown-item" to="/map" >Stores</Link>
-                                    <Link className="dropdown-item" to="/current-wash" >Current Wash</Link>
-                                    <Link className="dropdown-item" to="/setting" >Setting</Link>
-                                    {/* <Link className="dropdown-item" to="/rasp" >RaspberryPi</Link> */}
                                     <button 
                                         className="dropdown-item" 
                                         onClick={async () => {
