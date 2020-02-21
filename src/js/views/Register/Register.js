@@ -64,7 +64,7 @@ const Register = () => {
                 }).then(res => res.json())
                 .then(res => {
                     console.log(res);
-                    swal("ACCOUNT CREATED", "Welcome to iWash", "success", {
+                    swal("ACCOUNT CREATED", "Welcome to JobTrial", "success", {
                         button: "LOGIN NOW",
                       }).then(() => {
                             history.push('/login');
