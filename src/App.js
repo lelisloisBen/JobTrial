@@ -12,13 +12,7 @@ const Home = lazy(() => import('./js/views/Home/Home'));
 const LoggedHome = lazy(() => import('./js/views/LoggedHome/LoggedHome'));
 const Login = lazy(() => import('./js/views/Login/Login'));
 const Register = lazy(() => import('./js/views/Register/Register'));
-const Washers = lazy(() => import('./js/views/Washers/Washers'));
-const Dryers = lazy(() => import('./js/views/Dryers/Dryers'));
-const Wallet = lazy(() => import('./js/views/Wallet/Wallet'));
-const Checkout = lazy(() => import('./js/views/Checkout/Checkout'));
-const CurrentWash = lazy(() => import('./js/views/CurrentWash/CurrentWash'));
-const Profile = lazy(() => import('./js/views/Profile/Profile'));
-const WashHistory = lazy(() => import('./js/views/WashHistory/WashHistory'));
+
 
 
 function App() {
@@ -117,13 +111,6 @@ function App() {
               {!tokenAuth ? <Route exact path="/" component={Home} /> : <Route exact path="/" component={LoggedHome}/> }
               <Route path="/login" component={Login} />
               <Route path="/register" component={Register} />
-              <Route path="/washers/:WID" component={Washers} />
-              <Route path="/dryers/:WID" component={Dryers} />
-              <Route path="/wallet" component={Wallet} />
-              <Route path="/checkout/:amount" component={Checkout} />
-              <Route path="/current-wash" component={CurrentWash} />
-              <Route path="/profile" component={Profile} />
-              <Route path="/history" component={WashHistory} />
               <Route render={() => <NotFound/>} />
             </Switch>
             </section>
