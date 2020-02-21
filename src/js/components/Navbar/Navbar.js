@@ -19,8 +19,7 @@ const IwashNavBar = () => {
                 <Link className="navbar-brand mobile" to="/">
                     <img src={coin} width="30" height="30" className="d-inline-block align-top" alt="coin"/>
                     &nbsp;
-                    <i className="fas fa-info"></i>
-                    <span className={styles.wash}>Wash</span>
+                    JobTrial
                 </Link>
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
