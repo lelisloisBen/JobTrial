@@ -24,6 +24,15 @@ const IwashNavBar = () => {
                     <Link to="/">
                         HOME
                     </Link>
+                    <Link to="/">
+                        ABOUT
+                    </Link>
+                    <Link to="/">
+                        SERVICE
+                    </Link>
+                    <Link to="/">
+                        CONTACT
+                    </Link>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
