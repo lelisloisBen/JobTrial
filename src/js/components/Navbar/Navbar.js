@@ -20,6 +20,11 @@ const IwashNavBar = () => {
                     &nbsp;
                     JobTrial
                 </Link>
+                <ul className="nav navbar-nav navbar-left">
+                    <Link to="/">
+                        HOME
+                    </Link>
+                </ul>
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
                         <li>
