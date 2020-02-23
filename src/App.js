@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import { UserContext } from './UserContext';
 
-import IwashNavBar from './js/components/Navbar/Navbar';
+import JobTrialNavbar from './js/components/Navbar/Navbar';
 import Footer from './js/components/Footer/Footer';
 import NotFound from './js/components/NotFound/NotFound';
 
@@ -105,7 +105,7 @@ function App() {
     <Router>
       <UserContext.Provider value={providerValue}>
         <Suspense fallback={<div>Loading...</div>}>
-          <IwashNavBar/>
+          <JobTrialNavbar/>
           <section style={{minHeight: windowHeight}}>
             <Switch>
               {!tokenAuth ? <Route exact path="/" component={Home} /> : <Route exact path="/" component={LoggedHome}/> }
