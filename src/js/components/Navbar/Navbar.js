@@ -13,7 +13,7 @@ const IwashNavBar = () => {
     return (
         <>
         <nav className={["navbar fixed-top navbar-expand-lg navbar-light", styles.navBarI].join(' ')}>
-            <div className="container">
+            <div className="container-fluid">
                 <ul className="nav navbar-nav navbar-left mobile">
                     <Link className={styles.links} to="/">
                         HOME
@@ -34,9 +34,9 @@ const IwashNavBar = () => {
                             <Link to="/login" className={styles.links}> 
                                 Login
                             </Link>
-                            <Link to="/register" className={styles.links}> 
+                            {/* <Link to="/register" className={styles.links}> 
                                 Register
-                            </Link>
+                            </Link> */}
                         </li>
                     : 
                         <li>
