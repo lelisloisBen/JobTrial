@@ -1,6 +1,10 @@
 .navBarI {
     background-color: white;
 }
+.links {
+    color: #000000;
+    padding: 0 10px;
+}
 .btnGreen {
     background-color: #7CD1F9!important;
     border-color: #BBD5E4!important;
