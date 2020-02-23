@@ -1,9 +1,13 @@
 .navBarI {
-    background-color: white;
+    background-color: transparent;
 }
 .links {
     color: #000000;
     padding: 0 10px;
+    font-family: 'Merriweather' ;
+}
+.links:hover {
+    color: limegreen;
 }
 .btnGreen {
     background-color: #7CD1F9!important;

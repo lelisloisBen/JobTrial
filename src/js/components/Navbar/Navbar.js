@@ -31,10 +31,10 @@ const IwashNavBar = () => {
                 <ul className="nav navbar-nav navbar-right">
                     {!tokenAuth ?
                         <li>
-                            <Link to="/login" className={["btn", styles.btnGreen].join(' ')}> 
+                            <Link to="/login" className={styles.links}> 
                                 Login
                             </Link>
-                            <Link to="/register" className={["btn", styles.btnGreen].join(' ')}> 
+                            <Link to="/register" className={styles.links}> 
                                 Register
                             </Link>
                         </li>
