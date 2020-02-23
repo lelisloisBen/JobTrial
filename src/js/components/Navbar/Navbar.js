@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import styles from './Navbar.module.css';
-import coin from '../../../img/coin.png';
+import worker from '../../../img/worker.png';
 
 const IwashNavBar = () => {
     
@@ -16,7 +16,7 @@ const IwashNavBar = () => {
         <nav className={["navbar fixed-top navbar-expand-lg navbar-light", styles.navBarI].join(' ')}>
             <div className="container">
                 <Link className="navbar-brand mobile" to="/">
-                    <img src={coin} width="30" height="30" className="d-inline-block align-top" alt="coin"/>
+                    <img src={worker} width="30" height="30" className="d-inline-block align-top" alt="coin"/>
                     &nbsp;
                     JobTrial
                 </Link>
