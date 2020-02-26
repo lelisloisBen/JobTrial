@@ -40,3 +40,12 @@
 .LearnMoreButton:hover, .SignUpButton:hover{
     color:#5FAD56;
 }
+
+
+.aboutUsHeading{
+    color: #E55742;
+}
+
+.aboutUsGraphicDiv{
+    background-color: #588B8B;
+}
