@@ -32,7 +32,7 @@ const IwashNavBar = () => {
                     {!tokenAuth ?
                         <li>
                             <Link to="/login" className={styles.links}> 
-                                Login
+                                LogIn
                             </Link>
                             {/* <Link to="/register" className={styles.links}> 
                                 Register
