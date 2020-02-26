@@ -3,8 +3,6 @@ import styles from './Home.module.css';
 import { UserContext } from '../../../UserContext';
 import { Link } from 'react-router-dom';
 
-import landingImage from "../../../img/gewjotslandingimg.jpeg";
-
 const Home = () => {
 
     const {windowHeight} = useContext(UserContext);
@@ -19,9 +17,11 @@ const Home = () => {
                     <div className="col-6">
                         <h1 className={styles.landingheading}>GewJots</h1>
                         <p className={styles.landingSlogan}>To know if i know, Trial me</p>
-                        <button className={styles.LearnMoreButton}>Learn More</button>
-                        <Link to="/login">
-                            <button className={styles.SignUpButton}>Sign Up</button>
+                        <Link to="/" type="button" className={styles.LearnMoreButton}>
+                            Learn More
+                        </Link>
+                        <Link to="/register" type="button" className={styles.SignUpButton}>
+                            Sign Up
                         </Link>
                     </div>
                 </div>

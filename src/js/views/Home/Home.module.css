@@ -1,6 +1,7 @@
 .section {
     padding-top: 60px;
     background-image: url("../../../img/gewjotslandingimg.jpeg");
+    background-size: cover;
     font-family: InaiMathi;
 }
 
@@ -19,24 +20,28 @@
 }
 
 .LearnMoreButton{
+    color: black;
     width:140px;
     border: 1px solid #979797;
     border-radius: 12px;
     margin-right: 17px;
     padding: 4px; 
     background: none;
+    text-decoration: none;
 }
 
-.SignUpButton{
+.SignUpButton { 
+    color: black;
     width:140px;
     border: 1px solid #979797;
     border-radius: 12px;
     padding: 4px;
     background: none;
-    
+    text-decoration: none;
 }
 
 .LearnMoreButton:hover, .SignUpButton:hover{
+    text-decoration: none;
     color:#5FAD56;
 }
 
