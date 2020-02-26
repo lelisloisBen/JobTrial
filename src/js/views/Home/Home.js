@@ -13,8 +13,8 @@ const Home = () => {
         
             <div className={["text-center", styles.main].join(' ')} style={{minHeight: windowHeight}}>
                 <div className="row">
-                    <div className="col-6"></div>
-                    <div className="col-6">
+                    <div className="col-6 mobile"></div>
+                    <div className="col-sm-12 col-md-6 col-lg-6">
                         <h1 className={styles.landingheading}>GewJots</h1>
                         <p className={styles.landingSlogan}>To know if i know, Trial me</p>
                         <Link to="/" type="button" className={styles.LearnMoreButton}>
@@ -33,7 +33,7 @@ const Home = () => {
 
             <div className={["text-center", styles.main].join(' ')} style={{minHeight: windowHeight}}>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
                         <h2 className={styles.aboutUsHeading}>About Us</h2>
                         <div className="container">
                         For example, if you killed your grandfather, you'd cease to exist! 
@@ -48,7 +48,7 @@ const Home = () => {
                         </div>
                         <button className={styles.aboutUsButton}>Read More</button>
                     </div>
-                    <div className={["col-6", styles.aboutUsGraphicDiv].join(' ')}>
+                    <div className={["col-sm-12 col-md-6 col-lg-6", styles.aboutUsGraphicDiv].join(' ')}>
                             hey
                     </div>
                 
@@ -59,7 +59,7 @@ const Home = () => {
 
         <section className={styles.section3}>
         
-            <div className={["text-center", styles.main].join(' ')} style={{minHeight: windowHeight}}>
+            <div className="text-center" style={{minHeight: windowHeight}}>
                 <h2 className={styles.servicesHeading}> Our Services</h2>
             </div>
 
