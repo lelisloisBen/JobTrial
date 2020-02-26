@@ -32,10 +32,10 @@ const Home = () => {
         <section className={styles.section2}>
 
             <div className={["text-center", styles.main].join(' ')} style={{minHeight: windowHeight}}>
-                <div className="row" style={{minHeight: windowHeight}}>
-                    <div ClassName="col-6" style={{width: "655px"}}>
+                <div className="row">
+                    <div className="col-6">
                         <h2 className={styles.aboutUsHeading}>About Us</h2>
-                        <div className="container" style={{width:"500px"}}>
+                        <div className="container">
                         For example, if you killed your grandfather, you'd cease to exist! 
                         It must be wonderful. Oh Leela! You're the only person I could turn to; 
                         you're the only person who ever loved me. You don't know how to do any of those.
@@ -48,8 +48,8 @@ const Home = () => {
                         </div>
                         <button className={styles.aboutUsButton}>Read More</button>
                     </div>
-                    <div ClassName={styles.aboutUsGraphicDiv} style={{width: "655px", backgroundColor: "#588B8B"}}>
-                
+                    <div className={["col-6", styles.aboutUsGraphicDiv].join(' ')}>
+                            hey
                     </div>
                 
                 </div>
