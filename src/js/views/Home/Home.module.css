@@ -19,21 +19,24 @@
     opacity: 0.77;
 }
 
-
 .LearnMoreButton{
-    width: 144px;
+    width:140px;
     border: 1px solid #979797;
     border-radius: 12px;
     margin-right: 17px;
-    padding: 5px;
+    padding: 4px; 
     background: none;
 }
 
-.signUpButton{
-    width: 144px;
+.SignUpButton{
+    width:140px;
     border: 1px solid #979797;
     border-radius: 12px;
-    padding: 5px;
+    padding: 4px;
     background: none;
+    
 }
 
+.LearnMoreButton:hover, .SignUpButton:hover{
+    color:#5FAD56;
+}
