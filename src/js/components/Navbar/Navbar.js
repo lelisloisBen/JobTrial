@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import styles from './Navbar.module.css';
 
-const IwashNavBar = () => {
+const JobTrialNavbar = () => {
     
     let tokenAuth = localStorage.getItem('token');
     let firstname = localStorage.getItem('firstname');
@@ -66,4 +66,4 @@ const IwashNavBar = () => {
     );
 };
 
-export default IwashNavBar;
+export default JobTrialNavbar;
