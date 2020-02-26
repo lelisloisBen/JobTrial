@@ -36,12 +36,15 @@ const Home = () => {
                     <div ClassName="col-6" style={{width: "655px"}}>
                         <h2 className={styles.aboutUsHeading}>About Us</h2>
                         <div className="container" style={{width:"500px"}}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                            Fames ac turpis egestas integer eget aliquet. Mi proin sed libero enim sed faucibus turpis in. Placerat in egestas erat imperdiet 
-                            sed euismod nisi. Eget nulla facilisi etiam dignissim. Et molestie ac feugiat sed lectus. Dolor sit amet consectetur adipiscing elit pellentesque. 
-                            Et ultrices neque ornare aenean euismod elementum. Tellus molestie nunc non blandit. Et odio pellentesque diam volutpat commodo sed egestas. 
-                            Placerat duis ultricies lacus sed turpis tincidunt id. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Purus non enim praesent 
-                            elementum facilisis leo vel. Mi proin sed libero enim sed faucibus turpis in. Amet est placerat in egestas.
+                        For example, if you killed your grandfather, you'd cease to exist! 
+                        It must be wonderful. Oh Leela! You're the only person I could turn to; 
+                        you're the only person who ever loved me. You don't know how to do any of those.
+                        <br/>
+                        <br/>
+                        Bender, quit destroying the universe! Yeah, and if you were the pope they'd be all, "Straighten your pope hat. 
+                        " And "Put on your good vestments.
+                        " Now Fry, it's been a few years since medical school, so remind me.
+                        Disemboweling in your species: fatal or non-fatal?
                         </div>
                         <button className={styles.aboutUsButton}>Read More</button>
                     </div>
