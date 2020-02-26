@@ -41,18 +41,18 @@
 }
 
 
-.aboutUsHeading{
+.aboutUsHeading {
     color: #E55742;
     margin-top:15%;
     margin-bottom: 5%;
 }
 
-.aboutUsContent{
+.aboutUsContent {
     width:500px;
     text-align: center;
 }
 
-.aboutUsButton{
+.aboutUsButton {
     width:140px;
     border: 1px solid #979797;
     border-radius: 12px;
@@ -61,7 +61,12 @@
     background: none;  
 }
 
-.aboutUsGraphicDiv{
+.aboutUsGraphicDiv {
     background-color: #588B8B;
 }
 
+.servicesHeading {
+    color: #E55742;
+    margin-top:11%;
+    margin-bottom: 5%;
+}

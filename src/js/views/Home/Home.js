@@ -53,6 +53,14 @@ const Home = () => {
             </div>
 
         </section>
+
+        <section className={styles.section3}>
+        
+            <div className={["text-center", styles.main].join(' ')} style={{minHeight: windowHeight}}>
+                <h2 className={styles.servicesHeading}> Our Services</h2>
+            </div>
+
+        </section>
     </>
     );
 };
