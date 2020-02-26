@@ -17,7 +17,7 @@ const Home = () => {
                     <div className="col-6"></div>
                     <div className="col-6">
                         <h1 className={styles.landingheading}>GewJots</h1>
-                        <p>To know if i know, Trial me</p>
+                        <p className={styles.landingSlogan}>To know if i know, Trial me</p>
                         <button className={styles.LearnMoreButton}>Learn More</button>
                         <button className={styles.signUpButton}>Sign Up</button>
                     </div>

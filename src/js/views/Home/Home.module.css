@@ -3,23 +3,37 @@
     background-image: url("../../../img/gewjotslandingimg.jpeg");
 }
 
+
 .landingheading{
     color: #E55742;
-    font-size: 5.3rem;
+    font-size: 4.5rem;
+    font-family: InaiMathi;
+    margin-top: 27%;
+    margin-bottom: -5px;
 }
 
+.landingSlogan{
+    font-size: 2rem;
+    font-family: InaiMathi;
+    color:#2F2B2B;
+    opacity: 0.77;
+}
+
+
 .LearnMoreButton{
-    width: 130px;
+    width: 144px;
     border: 1px solid #979797;
     border-radius: 12px;
-    margin-right: 7px;
+    margin-right: 17px;
     padding: 5px;
     background: none;
 }
+
 .signUpButton{
-    width: 130px;
+    width: 144px;
     border: 1px solid #979797;
     border-radius: 12px;
     padding: 5px;
     background: none;
 }
+
