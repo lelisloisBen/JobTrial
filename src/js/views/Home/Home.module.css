@@ -1,3 +1,25 @@
 .section {
     padding-top: 60px;
+    background-image: url("../../../img/gewjotslandingimg.jpeg");
+}
+
+.landingheading{
+    color: #E55742;
+    font-size: 5.3rem;
+}
+
+.LearnMoreButton{
+    width: 130px;
+    border: 1px solid #979797;
+    border-radius: 12px;
+    margin-right: 7px;
+    padding: 5px;
+    background: none;
+}
+.signUpButton{
+    width: 130px;
+    border: 1px solid #979797;
+    border-radius: 12px;
+    padding: 5px;
+    background: none;
 }
