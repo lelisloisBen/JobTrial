@@ -1,20 +1,19 @@
 .section {
     padding-top: 60px;
     background-image: url("../../../img/gewjotslandingimg.jpeg");
+    font-family: InaiMathi;
 }
 
 
 .landingheading{
     color: #E55742;
     font-size: 4.5rem;
-    font-family: InaiMathi;
     margin-top: 27%;
     margin-bottom: -5px;
 }
 
 .landingSlogan{
     font-size: 2rem;
-    font-family: InaiMathi;
     color:#2F2B2B;
     opacity: 0.77;
 }
@@ -44,8 +43,25 @@
 
 .aboutUsHeading{
     color: #E55742;
+    margin-top:15%;
+    margin-bottom: 5%;
+}
+
+.aboutUsContent{
+    width:500px;
+    text-align: center;
+}
+
+.aboutUsButton{
+    width:140px;
+    border: 1px solid #979797;
+    border-radius: 12px;
+    margin-top: 8%;
+    padding: 4px;
+    background: none;  
 }
 
 .aboutUsGraphicDiv{
     background-color: #588B8B;
 }
+
