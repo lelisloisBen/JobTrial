@@ -3,6 +3,9 @@ import styles from './Home.module.css';
 import { UserContext } from '../../../UserContext';
 import { Link } from 'react-router-dom';
 
+import hiring from "../../../img/hiring.png"
+import deal from "../../../img/deal.png"
+
 const Home = () => {
 
     const {windowHeight} = useContext(UserContext);
@@ -60,7 +63,30 @@ const Home = () => {
         <section className={styles.section3}>
         
             <div className="text-center" style={{minHeight: windowHeight}}>
-                <h2 className={styles.servicesHeading}> Our Services</h2>
+                <div className="row">
+                    <div className="col-6">
+                         <div className={["card", styles.serviceCard].join(' ')}>
+                            <div className="card-body">
+                                <h5 className="card-title">
+                                    <img src={hiring} className={styles.employeeImg} alt=""/>
+                                </h5>
+                                <button className={styles.aboutUsButton}>Job hunting?</button>
+                            </div>
+                         </div>
+                    </div>
+
+                    <div className="col-6">
+                        <div className={["card", styles.serviceCard].join(' ')}>
+                            <div className="card-body">
+                                <h5 className="card-title">
+                                    <img src={deal} className={styles.employeeImg} alt=""/>
+                                </h5>
+                                <button className={styles.aboutUsButton}>Hiring?</button>
+                            </div>
+                         </div>
+                        
+                    </div>
+                </div>
             </div>
 
         </section>
@@ -69,3 +95,6 @@ const Home = () => {
 };
 
 export default Home;
+
+
+ 
