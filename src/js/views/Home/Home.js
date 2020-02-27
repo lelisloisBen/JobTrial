@@ -52,7 +52,7 @@ const Home = () => {
                         <button className={styles.aboutUsButton}>Read More</button>
                     </div>
                     <div className={["col-sm-12 col-md-6 col-lg-6", styles.aboutUsGraphicDiv].join(' ')}>
-                            hey
+                        
                     </div>
                 
                 </div>
