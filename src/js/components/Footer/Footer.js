@@ -9,7 +9,7 @@ const Footer = () => {
                <div className="row top-gap">
                   <div className="col-md-7 header-side">
                      <p> 
-                        © 2020 JobTrial. All Rights Reserved | Design by Samir
+                        © 2020 GewJots. All Rights Reserved | Design by GewJots LLC
                      </p>
                   </div>
                   <div className="col-md-5 header-side">
