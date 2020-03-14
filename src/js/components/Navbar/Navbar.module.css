@@ -23,8 +23,9 @@
     vertical-align: text-top;
 }
 .dropBtn {
-    background-color: #7CD1F9;
-    border-color: #BBD5E4!important;
+    background-color: transparent;
+    /* border-color: #BBD5E4!important; */
+    border-color: transparent;
     color: #000000;
     outline: none;
     padding: 5px 10px 5px 10px;
@@ -33,7 +34,7 @@
     font-weight: bold;
 }
 .dropBtn:hover {
-    background-color: #9BDCFA;
+    background-color: #E55742;
 }
 .dropBtn:focus {
     outline: none;

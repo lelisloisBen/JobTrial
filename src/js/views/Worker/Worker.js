@@ -4,7 +4,8 @@ import styles from './Worker.module.css';
 const Worker = () => {
     return (
         <section className={styles.section}>
-            hey
+            
+            <input type="text" />
 
         </section>
     )
