@@ -4,8 +4,11 @@ import styles from './Worker.module.css';
 const Worker = () => {
     return (
         <section className={styles.section}>
-            
-            <input type="text" />
+            <div className="container text-center">
+                <input type="text" placeholder="dssd" />
+
+            </div>
+
 
         </section>
     )
