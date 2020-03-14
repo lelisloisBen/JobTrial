@@ -13,6 +13,7 @@ const LoggedHome = lazy(() => import('./js/views/LoggedHome/LoggedHome'));
 const Login = lazy(() => import('./js/views/Login/Login'));
 const Register = lazy(() => import('./js/views/Register/Register'));
 const Worker = lazy(() => import('./js/views/Worker/Worker'));
+const Company = lazy(() => import('./js/views/Company/Company'));
 
 
 
@@ -113,6 +114,7 @@ function App() {
               <Route path="/login" component={Login} />
               <Route path="/register" component={Register} />
               <Route path="/worker" component={Worker} />
+              <Route path="/company" component={Company} />
               <Route render={() => <NotFound/>} />
             </Switch>
             </section>
