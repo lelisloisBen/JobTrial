@@ -64,7 +64,7 @@ const Home = () => {
         
             <div className="text-center" style={{minHeight: windowHeight}}>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
                          <div className={["card", styles.serviceCard].join(' ')}>
                             <div className={["card-body", styles.cardBodyColor].join(' ')}>
                                 <h5 className="card-title">
@@ -77,7 +77,7 @@ const Home = () => {
                          </div>
                     </div>
 
-                    <div className="col-6">
+                    <div className="col-sm-12 col-md-6 col-lg-6">
                         <div className={["card", styles.serviceCard].join(' ')}>
                             <div className={["card-body", styles.cardBodyColor].join(' ')}>
                                 <h5 className="card-title">
