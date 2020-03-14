@@ -66,7 +66,7 @@ const Home = () => {
                 <div className="row">
                     <div className="col-6">
                          <div className={["card", styles.serviceCard].join(' ')}>
-                            <div className="card-body">
+                            <div className={["card-body", styles.cardBodyColor].join(' ')}>
                                 <h5 className="card-title">
                                     <img src={hiring} className={styles.employeeImg} alt=""/>
                                 </h5>
@@ -77,7 +77,7 @@ const Home = () => {
 
                     <div className="col-6">
                         <div className={["card", styles.serviceCard].join(' ')}>
-                            <div className="card-body">
+                            <div className={["card-body", styles.cardBodyColor].join(' ')}>
                                 <h5 className="card-title">
                                     <img src={deal} className={styles.employeeImg} alt=""/>
                                 </h5>
