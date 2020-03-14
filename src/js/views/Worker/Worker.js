@@ -4,7 +4,8 @@ import styles from './Worker.module.css';
 const Worker = () => {
     return (
         <section className={styles.section}>
-            <div className="container pt-2">
+            <div className="container">
+                <h4 className="text-center" >Job Hunting?</h4>
                 <label htmlFor="firstname">First Name:</label>
                 <input id="firstname" type="text" placeholder="First Name" />
                 <br/>
