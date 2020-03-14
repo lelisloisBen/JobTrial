@@ -12,6 +12,7 @@ const Home = lazy(() => import('./js/views/Home/Home'));
 const LoggedHome = lazy(() => import('./js/views/LoggedHome/LoggedHome'));
 const Login = lazy(() => import('./js/views/Login/Login'));
 const Register = lazy(() => import('./js/views/Register/Register'));
+const Worker = lazy(() => import('./js/views/Worker/Worker'));
 
 
 
@@ -111,6 +112,7 @@ function App() {
               {!tokenAuth ? <Route exact path="/" component={Home} /> : <Route exact path="/" component={LoggedHome}/> }
               <Route path="/login" component={Login} />
               <Route path="/register" component={Register} />
+              <Route path="/worker" component={Worker} />
               <Route render={() => <NotFound/>} />
             </Switch>
             </section>
