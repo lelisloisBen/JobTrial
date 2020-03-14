@@ -70,7 +70,9 @@ const Home = () => {
                                 <h5 className="card-title">
                                     <img src={hiring} className={styles.employeeImg} alt=""/>
                                 </h5>
-                                <button className={styles.aboutUsButton}>Job hunting?</button>
+                                <Link to="/worker" type="button" className={styles.aboutUsButton} >
+                                    Job hunting?
+                                </Link>
                             </div>
                          </div>
                     </div>
