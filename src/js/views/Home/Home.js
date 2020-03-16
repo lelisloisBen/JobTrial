@@ -34,7 +34,7 @@ const Home = () => {
 
         <section className={styles.section2}>
 
-            <div className={["text-center", styles.main].join(' ')} style={{minHeight: windowHeight}}>
+            <div className={["text-center", styles.main].join(' ')}>
                 <div className="row">
                     <div className="col-sm-12 col-md-6 col-lg-6">
                         <h2 className={styles.aboutUsHeading}>About Us</h2>
@@ -62,7 +62,7 @@ const Home = () => {
 
         <section className={styles.section3}>
         
-            <div className="text-center" style={{minHeight: windowHeight}}>
+            <div className="text-center">
                 <div className="row">
                     <div className="col-sm-12 col-md-6 col-lg-6">
                          <div className={["card", styles.serviceCard].join(' ')}>
